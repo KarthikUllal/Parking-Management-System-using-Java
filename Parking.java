@@ -1,9 +1,9 @@
-import javax.swing.*;
 import java.awt.*;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import javax.swing.*;
 
 public class Parking {
     HashMap<String, VehicleEntry> vehicleList = new HashMap<>();
@@ -255,7 +255,7 @@ public class Parking {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Car_Entry::new);
+        SwingUtilities.invokeLater(Parking::new);
     }
 }
 
