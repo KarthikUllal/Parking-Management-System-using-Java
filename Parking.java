@@ -227,8 +227,8 @@ public class Parking {
                                 "\nEntry Time: " + ve.entryHour +
                                 "\nExit Time: " + exitTime +
                                 "\nHours Parked: " + hours +
-                                "\nRate/hr: ₹" + rate +
-                                "\nTotal: ₹" + total,
+                                "\nRate/hr: Rs" + rate +
+                                "\nTotal: Rs" + total,
                         "Bill", JOptionPane.INFORMATION_MESSAGE);
 
                 exitFrame.dispose();
