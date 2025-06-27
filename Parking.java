@@ -17,7 +17,7 @@ public class Parking {
 
     static int slot = 100;
 
-    public Car_Entry() {
+    public Parking() {
         JFrame carForm = new JFrame("Car Parking System");
         JPanel panel = new JPanel();
         panel.setLayout(null);
